@@ -98,7 +98,7 @@ A [ST-Nucleo-F429ZI Microcontroller](https://os.mbed.com/platforms/ST-Nucleo-F42
 #### Simple combing demonstration
 
 For the project showcase day a greatly simplified version of the code was run, to ensure a successful demonstration.
-** _WARNING_ The arm will move to a starting position as soon as the microcontroller and PSU are on. **
+**_WARNING_ The arm will move to a starting position as soon as the microcontroller and PSU are on.**
 
 In a terminal.
 > roscore
