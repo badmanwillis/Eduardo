@@ -13,7 +13,7 @@ From our research, this may well be the first prototype of assistive robot that 
 
 The software was developed on a Ubuntu 16.04 LTS machine,using ROS-Kinetic. You'll need to setup a catkin workspace, and put the packages into the src folder.
 
-#### setup
+#### Setup a workspace
 [Creating a Catkin Workspace](http://wiki.ros.org/catkin/Tutorials/create_a_workspace)
 
 In the terminal:
@@ -26,6 +26,21 @@ navigate to the root folder
 
 make the workspace using the catkin_make command
 > catkin_make
+
+#### Add the packages
+[Creating a ROS Package](http://wiki.ros.org/catkin/Tutorials/CreatingPackage)
+
+Move the two folders "sam" and "sam_moveit_config" into the src folder.
+
+Make sure you are still in the root folder "eduardo_ws" using the "cd" and "cd .." commands
+
+re-build the workspace
+
+> catkin_make
+
+"source the workspace". This means adding the workspace to the ROS enviroment by sourcing the generated setup file.
+
+source devel/setup.bash 
 
 ### sam
 
