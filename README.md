@@ -100,8 +100,19 @@ For the demonstration day accasaaxsv
 
 Open a new terminal tab (Ctrl + shift + T). Then run the ros serial command to connect the Ubuntu machine to the Microcontroller.
 
-'''
-rosrun rosserial_python serial_node.py _port:=/dev/ttyACM0 _baud:=115200
-'''
+> rosrun rosserial_python serial_node.py _port:=/dev/ttyACM0 _baud:=115200
+
+> rostopic pub toggle_execute std_msgs/Empty --once
+
+#### Other useful commands
+
+> rostopic list
+
+> rostopic echp joint_states
+
+> rostopic echo chatter
+
+> rqt_graph
+
 
 
