@@ -1,0 +1,11 @@
+controller_list:
+  - name: fake_eduardo_arm_controller
+    joints:
+      - base_to_shoulder
+      - shoulder_upper_arm
+      - upper_lower_arm
+      - lower_arm_hand
+      - comb
+  - name: fake_hand_controller
+    joints:
+      - comb
