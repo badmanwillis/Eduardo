@@ -11,11 +11,11 @@ From our research, this may well be the first prototype of assistive robot that 
 
 ## ROS packages
 
-You'll need to setup a catkin workspace, and put the packages into the src folder.
+The software was developed on a Ubuntu 16.04 LTS machine,using ROS-Kinetic. You'll need to setup a catkin workspace, and put the packages into the src folder.
 
 ### sam
 
-This package features the Fusion360 stl files for the the arm links, as well as the urdf (Universal Robot Description Format) file. It can be used to visualize the arm in Rviz, and control the joints via GUI sliders.
+This package features the Fusion360 stl files for the the arm links, as well as the samcad.urdf (Universal Robot Description Format) file. It can be used to visualize the arm in Rviz, and control the joints via GUI sliders.
 
 #### usage
 Navigate to your workspace
@@ -30,9 +30,11 @@ run the demo
 
 > roslaunch sam arm_display.launch 
 
+Wait for Rviz to load, then use the joint_state_publisher window sliders to play about the arm.
+
 ### sam_moveit_config
 
-words here about the package
+The moveit! configuration package for the samcad.urdf. Unfortunatley it doesn't support path planning right now, as the deafult kinematics solvers only support 6DOF arms. I've tried adding a dummy link, which should fix the issue with a bit more work.
 
 #### usage
 
