@@ -1,5 +1,5 @@
 # Eduardo
-Eduardo the hair combing robot, a University of Plymouth MEng Robotics ROCO504 project.
+Eduardo the hair combing robot. A University of Plymouth MEng Robotics ROCO504 project.
 
 Olly Smith and Sam White 2018. Module lead by Martin F Stoelen.
 
@@ -11,15 +11,23 @@ From our research, this may well be the first prototype of assistive robot that 
 
 ## ROS packages
 
+You'll need to setup a catkin workspace, and put the packages into the src folder.
+
 ### sam
 
-words here about the package
+This package features the Fusion360 stl files for the the arm links, as well as the urdf (Universal Robot Description Format) file. It can be used to visualize the arm in Rviz, and control the joints via GUI sliders.
 
-instructions
+#### usage
+Navigate to your workspace
+> cd ros_ws
+Source your workspace
+> source devel/setup.bash
+run the demo
+> roslaunch sam arm_display.launch 
 
 ### sam_moveit_config
 
 words here about the package
 
-instructions
+#### usage
 
