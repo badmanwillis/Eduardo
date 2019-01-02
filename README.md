@@ -13,6 +13,20 @@ From our research, this may well be the first prototype of assistive robot that 
 
 The software was developed on a Ubuntu 16.04 LTS machine,using ROS-Kinetic. You'll need to setup a catkin workspace, and put the packages into the src folder.
 
+#### setup
+[Creating a Catkin Workspace](http://wiki.ros.org/catkin/Tutorials/create_a_workspace)
+
+In the terminal:
+ 
+create the folders
+> mkdir -p ~/eduardo_ws/src
+
+navigate to the root folder
+> cd ~/eduardo_ws/
+
+make the workspace using the catkin_make command
+> catkin_make
+
 ### sam
 
 This package features the Fusion360 stl files for the the arm links, as well as the samcad.urdf (Universal Robot Description Format) file. It can be used to visualize the arm in Rviz, and control the joints via GUI sliders.
@@ -30,7 +44,7 @@ run the demo
 
 > roslaunch sam arm_display.launch 
 
-Wait for Rviz to load, then use the joint_state_publisher window sliders to play about the arm.
+Wait for Rviz to load, then use the joint_state_publisher window sliders to play about with the arm.
 
 ### sam_moveit_config
 
@@ -50,3 +64,12 @@ run the demo
 > roslaunch sam_moveit_config demo.launch
 
 Wait for Rviz to load, tick the "Allow Approx IK Solutions" option in the Planning tab. Drag the arm Query Start State and Query Goal State (found under Planning Request), and use the commands within the Planning tab to have moveit perform path planning and simulate the arms movement.
+
+## Motor control code
+
+Nuceleo 
+
+#### simple combing demonstration
+
+For the demonstration day accasaaxsv
+
