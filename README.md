@@ -67,7 +67,7 @@ Wait for Rviz to load, then use the joint_state_publisher window sliders to play
 
 ### sam_moveit_config
 
-The moveit! configuration package for the samcad.urdf. Unfortunatley it doesn't support path planning right now, as the deafult kinematics solvers only support 6DOF arms. I've tried adding a dummy link, which should fix the issue with a bit more work.
+The [moveit!](https://moveit.ros.org/) configuration package for the samcad.urdf. Unfortunatley it doesn't support path planning right now, as the deafult kinematics solvers only support 6DOF arms. I've tried adding a dummy link, which should fix the issue with a bit more work.
 
 #### usage
 Navigate to your workspace
