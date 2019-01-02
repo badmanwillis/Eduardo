@@ -86,9 +86,22 @@ Wait for Rviz to load, tick the "Allow Approx IK Solutions" option in the Planni
 
 ## Motor control code
 
-Nuceleo 
+A [ST-Nucleo-F429ZI Microcontroller](https://os.mbed.com/platforms/ST-Nucleo-F429ZI/) was used to control the stepper and servo motors, as well as read the the flex sensor value.
+
+### Legit code
+
+### Hacky code
 
 #### simple combing demonstration
 
 For the demonstration day accasaaxsv
+
+> roscore
+
+Open a new terminal tab (Ctrl + shift + T). Then run the ros serial command to connect the Ubuntu machine to the Microcontroller.
+
+'''
+rosrun rosserial_python serial_node.py _port:=/dev/ttyACM0 _baud:=115200
+'''
+
 
