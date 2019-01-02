@@ -19,10 +19,15 @@ This package features the Fusion360 stl files for the the arm links, as well as 
 
 #### usage
 Navigate to your workspace
+
 > cd ros_ws
+
 Source your workspace
+
 > source devel/setup.bash
+
 run the demo
+
 > roslaunch sam arm_display.launch 
 
 ### sam_moveit_config
