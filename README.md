@@ -9,6 +9,10 @@ People with temporary or permanent disabilities often struggle to perform daily 
 
 From our research, this may well be the first prototype of assistive robot that features a passive compliant end effector. It was built in under three months, by two people, on a budget of £70. As a result, shortcuts were taken for the sake of creating a functioning prototype, and much of the work here does not adhere to best practices.
 
+Sam White was responsible for ...
+
+Olly Smith was responsible for ...
+
 ## ROS packages
 
 The software was developed on a Ubuntu 16.04 LTS machine,using ROS-Kinetic. You'll need to setup a catkin workspace, and put the packages into the src folder.
