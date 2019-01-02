@@ -16,7 +16,7 @@ The software was developed on a Ubuntu 16.04 LTS machine,using ROS-Kinetic. You'
 #### Setup a workspace
 [Creating a Catkin Workspace](http://wiki.ros.org/catkin/Tutorials/create_a_workspace)
 
-In the terminal:
+Open a terminal (should default to the home directory):
  
 create the folders
 > mkdir -p ~/eduardo_ws/src
@@ -40,7 +40,7 @@ re-build the workspace
 
 "source the workspace". This means adding the workspace to the ROS enviroment by sourcing the generated setup file.
 
-source devel/setup.bash 
+> source devel/setup.bash 
 
 ### sam
 
