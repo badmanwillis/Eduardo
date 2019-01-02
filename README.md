@@ -1,5 +1,5 @@
 # Eduardo
-Eduardo the hair combing robot. A University of Plymouth MEng Robotics ROCO504 project.
+Eduardo the hair combing robot. An assistive robot arm prototype featuring a passive compliant end effector. A University of Plymouth MEng Robotics ROCO504 project.
 
 Olly Smith and Sam White 2018. Module lead by Martin F Stoelen.
 
@@ -95,30 +95,34 @@ A [ST-Nucleo-F429ZI Microcontroller](https://os.mbed.com/platforms/ST-Nucleo-F42
 
 ### Hacky code
 
-#### simple combing demonstration
+#### Simple combing demonstration
 
-For the demonstration day accasaaxsv
+For the project showcase day a greatly simplified version of the code was run, to ensure a successful demonstration.
+** _WARNING_ The arm will move to a starting position as soon as the microcontroller and PSU are on. **
 
+In a terminal.
 > roscore
 
-Open a new terminal tab (Ctrl + shift + T). Then run the ros serial command to connect the Ubuntu machine to the Microcontroller.
-
+Open a new terminal tab (Ctrl + shift + T). Then run the ros serial command to connect the Ubuntu machine to the Microcontroller. If you forgot to plug the microcontroller into the computer first, that's okay, I've done it as well.
 > rosrun rosserial_python serial_node.py _port:=/dev/ttyACM0 _baud:=115200
 
+Have the arm execute a hard coded path
 > rostopic pub toggle_execute std_msgs/Empty --once
 
 #### Other useful commands
+These have proven useful in development.
 
+List the current ROS topics
 > rostopic list
 
-> rostopic echp joint_states
+Print the updating values of the joints of the arm.
+> rostopic echo joint_states
 
-> rostopic echo chatter
-
+Generate a ROS computation graph to visualize the topics and nodes.
 > rqt_graph
 
 ## Further improvements
-There is no shortage of improvements to be made to this project, and we hope to see the continued development of this arm.
+There is no shortage of improvements to be made to this project, and we hope to see the continued development of this arm in the future.
 
 ### Safety
 - Add microswitches to the prismatic gantry and shoulder revolute joints as endstops. Like a 3D printer.
