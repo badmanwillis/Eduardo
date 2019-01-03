@@ -91,14 +91,9 @@ Wait for Rviz to load, tick the "Allow Approx IK Solutions" option in the Planni
 
 A [ST-Nucleo-F429ZI Microcontroller](https://os.mbed.com/platforms/ST-Nucleo-F429ZI/) was used to control the stepper and servo motors, as well as read the the flex sensor value.
 
-### Legit code
-
-### Hacky code
-
 #### Simple combing demonstration
-
-For the project showcase day a greatly simplified version of the code was run, to ensure a successful demonstration.
-**_WARNING_ The arm will move to a starting position as soon as the microcontroller and PSU are on.**
+For the project showcase day a greatly simplified version of the code (demo_control_code.cpp) was run, to ensure a successful demonstration.
+**_WARNING_. The arm will move to a starting position as soon as the microcontroller and PSU are on.**
 
 In a terminal.
 > roscore
@@ -106,7 +101,7 @@ In a terminal.
 Open a new terminal tab (Ctrl + shift + T). Then run the ros serial command to connect the Ubuntu machine to the Microcontroller. If you forgot to plug the microcontroller into the computer first, that's okay, I've done it as well.
 > rosrun rosserial_python serial_node.py _port:=/dev/ttyACM0 _baud:=115200
 
-Have the arm execute a hard coded path
+Have the arm execute a hard coded path. Place a head of hair in the path of the arm to have it combed.
 > rostopic pub toggle_execute std_msgs/Empty --once
 
 #### Other useful commands
