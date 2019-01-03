@@ -15,6 +15,9 @@ Olly Smith was responsible for the ROS software and c++ microcontroller code for
 
 Finally, the robot arm itself lends itself to further use as a development platform at the university for research projects. The large workspace (including the vertical prismatic element of the pedestal), well executed construction of the arm using low cost components, and open source software, makes the arm a viable candidate for students to use in their own research projects, continuing the research we present, and for their own ideas.
 
+## Media
+imgur album
+youtube videos
 
 ## ROS packages
 
@@ -125,7 +128,20 @@ There is no shortage of improvements to be made to this project, and we hope to 
 - Add a big red emergency stop button.
 
 ### Design and construction
+- An improved attachment method, which still allows for end effectors to be easily swapped. The current end effector attachement is friction fit, and can become loose over time.
+- 
 
 ### Control Software
+- Intergrate a sensor to establish the cartesian position of the users head. This was attempted using a KinectV2, and a custom stereo camera system, but was abandoned due to time.
+- Intergate the Stepper motor for the pedestal, adding a vertical prismatic joint to the URDF.
+
+#### Moveit!
+- Create a custom kinematics solver plugin, or use IKFast, or Trac-IK.
+- Define controllers. A YAML file of the joints. See sam_moveit_config > config.
+- Use pyhton scripting to control the arm. See the [Move Group Python Interface](http://docs.ros.org/kinetic/api/moveit_tutorials/html/doc/move_group_python_interface/move_group_python_interface_tutorial.html) tutorial.
+
+- Create a launch file / bash script that launches the whole enviroment from single terminal command
 
 ### Fun ideas
+- Implement voice synthesis, give it an old-timey british barber voice, a bit like Codsworth from Fallout 4.
+- Create an end effector of a silicon mould of a hand, to high-five passers by.
