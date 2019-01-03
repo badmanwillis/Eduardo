@@ -11,7 +11,7 @@ From our research, this may well be the first prototype of assistive robot that 
 
 Sam White was responsible for the design and manufacture of the arm. This was his first project attempted using Fusion360. Parts were rapidly protoyped and developed iterativley, through 3D printing. Additional work included parts procurement, sensor testing, and building a wheatstone bridge for the flex sensor.
 
-Olly Smith was responsible for the ROS software and c++ microcontroller code for the arm. This was his first project attempted using ROS. Addtional work included advising Sam on designing parts for 3D printing - having built an ANET A8, creating a custom control board for the stepper drivers and servo power rails.
+Olly Smith was responsible for the ROS software and c++ microcontroller code for the arm. This was his first project attempted using ROS. Addtional work included advising Sam on designing parts for 3D printing - having built an ANET A8, and creating a custom control board for the stepper drivers and servo power rails.
 
 Finally, the robot arm itself lends itself to further use as a development platform at the university for research projects. The large workspace (including the vertical prismatic element of the pedestal), well executed construction of the arm using low cost components, and open source software, makes the arm a viable candidate for students to use in their own research projects, continuing the research we present, and for their own ideas.
 
