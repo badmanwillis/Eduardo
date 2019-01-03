@@ -18,7 +18,7 @@ Finally, the robot arm itself lends itself to further use as a development platf
 
 ## ROS packages
 
-The software was developed on a Ubuntu 16.04 LTS machine,using ROS-Kinetic. You'll need to setup a catkin workspace, and put the packages into the src folder.
+The software was developed on a Ubuntu 16.04 LTS machine, using ROS-Kinetic. You'll need to setup a catkin workspace, and put the packages into the src folder.
 
 #### Setup a workspace
 [Creating a Catkin Workspace](http://wiki.ros.org/catkin/Tutorials/create_a_workspace)
@@ -92,7 +92,7 @@ Wait for Rviz to load, tick the "Allow Approx IK Solutions" option in the Planni
 A [ST-Nucleo-F429ZI Microcontroller](https://os.mbed.com/platforms/ST-Nucleo-F429ZI/) was used to control the stepper and servo motors, as well as read the the flex sensor value.
 
 #### Simple combing demonstration
-For the project showcase day a greatly simplified version of the code (demo_control_code.cpp) was run, to ensure a successful demonstration.
+For the project showcase day a greatly simplified version of the code (demo_code.cpp) was run, to ensure a successful demonstration.
 **_WARNING_. The arm will move to a starting position as soon as the microcontroller and PSU are on.**
 
 In a terminal.
