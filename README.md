@@ -122,6 +122,11 @@ Generate a ROS computation graph to visualize the topics and nodes.
 ## Further improvements
 There is no shortage of improvements to be made to this project, and we hope to see the continued development of this arm in the future.
 
+### Research
+- Attempt combing on the sides of the hair, and potentially to style the hair.
+- Create an end effector using an antagonstic pair, for variable compliance.
+- Experiment with other means of helping a person with upper body impairments. Examples include washing, feeding, clothing.
+
 ### Safety
 - Add microswitches to the prismatic gantry and shoulder revolute joints as endstops. Like a 3D printer.
 - Add padding to the arm itself, potentially with sensors or microswithces to detect a collision.
@@ -129,7 +134,7 @@ There is no shortage of improvements to be made to this project, and we hope to 
 
 ### Design and construction
 - An improved attachment method, which still allows for end effectors to be easily swapped. The current end effector attachement is friction fit, and can become loose over time.
-- 
+- Create a better mount for the PSU and motor control board. Currently an elastic band is doing a fantastic job, but it's not ideal.
 
 ### Control Software
 - Intergrate a sensor to establish the cartesian position of the users head. This was attempted using a KinectV2, and a custom stereo camera system, but was abandoned due to time.
