@@ -94,6 +94,16 @@ Wait for Rviz to load, tick the "Allow Approx IK Solutions" option in the Planni
 
 A [ST-Nucleo-F429ZI Microcontroller](https://os.mbed.com/platforms/ST-Nucleo-F429ZI/) was used to control the stepper and servo motors, as well as read the the flex sensor value.
 
+### nucleo_code.cpp
+Most complete working code. The start and end postions of the arm are hard coded, and upon excution
+
+### demo_code.cpp
+A version of nucleo_code.cpp with all superfluous code removed. Used to demostrate the arm on the demostration day. See the simple combing demonstration for usage.
+
+### master_code.cpp
+The most complete code in developement. Unfinished. Designed to by used by both the arm_display.launch program (sam) to allow remote control from the computer, using the GUI sliders. Also for use by the demo.launch (sam_moveit_config) program to execute path planning between given positions.
+
+
 #### Simple combing demonstration
 For the project showcase day a greatly simplified version of the code (demo_code.cpp) was run, to ensure a successful demonstration.
 **_WARNING_. The arm will move to a starting position as soon as the microcontroller and PSU are on.**
