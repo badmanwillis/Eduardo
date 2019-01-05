@@ -153,7 +153,7 @@ There is no shortage of improvements to be made to this project, and we hope to 
 #### Moveit!
 - Create a custom kinematics solver plugin, or use IKFast, or Trac-IK.
 - Define controllers. A YAML file of the joints. See sam_moveit_config > config.
-- Use pyhton scripting to control the arm. See the [Move Group Python Interface](http://docs.ros.org/kinetic/api/moveit_tutorials/html/doc/move_group_python_interface/move_group_python_interface_tutorial.html) tutorial.
+- Use python scripting to control the arm. See the [Move Group Python Interface](http://docs.ros.org/kinetic/api/moveit_tutorials/html/doc/move_group_python_interface/move_group_python_interface_tutorial.html) tutorial.
 
 - Create a launch file / bash script that launches the whole enviroment from single terminal command
 
