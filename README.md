@@ -145,6 +145,9 @@ There is no shortage of improvements to be made to this project, and we hope to 
 ### Design and construction
 - An improved attachment method, which still allows for end effectors to be easily swapped. The current end effector attachement is friction fit, and can become loose over time.
 - Create a better mount for the PSU and motor control board. Currently an elastic band is doing a fantastic job, but it's not ideal.
+- Addition of a belt tensioner for the  shoulder joint would make keeping the belt taught much simpler.
+- Replacing servo plugs with molex connectors. Current connects have no locking mechanism and can occasionally be pulled out when prismatic joint is at it's extremes.
+- A comb piece design with less sharp prongs should be considered. Adjust as necessary for comfort.
 
 ### Control Software
 - Intergrate a sensor to establish the cartesian position of the users head. This was attempted using a KinectV2, and a custom stereo camera system, but was abandoned due to time.
