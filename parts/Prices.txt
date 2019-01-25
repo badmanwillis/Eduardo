@@ -1,46 +1,46 @@
 ---MOTORS---
 
 Servos
-3x high torque hobby servos @ £17.99 each
+3x high torque hobby servos @ Â£17.99 each
 AAS-750MG
-£53.97
+Â£53.97
 
 Steppers
-2x Nema 17 stepper motors @ £15 each
+2x Nema 17 stepper motors @ Â£15 each
 1702HSM133A
-£30
+Â£30
 
 MOTORS TOTAL:
-£80.97
+Â£80.97
 
 ---OOZENEST---
 
 Nema 17 motor mounting plate
-£7.50
+Â£7.50
 
 V-Slot Gantry Plate Kit (Delrin Wheels, 4 Wheels)
-£30.50
+Â£30.50
 
 V-Slot Linear Rail - 20mm x 80mm x 1000mm
-£18.60
+Â£18.60
 
 Tee Nuts M5 (x10)
-£0.26 each - £2.60
+Â£0.26 each - Â£2.60
 
 GT2 Pulley 20T (x2)
-£2.90 each - £5.80
+Â£2.90 each - Â£5.80
 
 M3 Socket Head Bolts 10mm (x8)
-£0.13 each - £1.04
+Â£0.13 each - Â£1.04
 
 M5 Low Profile Bolts 8mm (x8)
-£0.21 each - £1.92
+Â£0.21 each - Â£1.92
 
 M5 Low Profile Bolts 15mm (x4)
-£0.24 each - £0.96
+Â£0.24 each - Â£0.96
 
 Double Tee Nut (x2)
-£1.01 each - £2.02
+Â£1.01 each - Â£2.02
 
 GT2 Open Timing Belt 
 Negligible
@@ -49,12 +49,28 @@ Negligible
 Negligible
 
 OOZENEST TOTAL:
-£70.94
+Â£70.94
+
+---ELECTRONICS---
+
+Adafruit Flex sensor [ADA1070}
+Â£11.42
+
+Nucleo board
+Â£18.09
+
+Stepper motor drivers
+Â£2.06 each - Â£4.12
+
+Power supply 
+Â£24.99
+
+ELECTRONICS TOTAL:
+Â£58.62
 
 ------GRAND TOTAL------
 
-£151.91
-
+Â£210.53
 
 
 
