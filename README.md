@@ -17,7 +17,8 @@ Finally, the robot arm itself lends itself to further use as a development platf
 
 ## Media
 imgur album
-youtube videos
+
+(Rough cut of a showcase video for the project](https://www.youtube.com/watch?v=7iySw0dwJq0)
 
 ## ROS packages
 
